@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StatsCard from './components/calculator';
+import Calculator from './components/calculator';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
   render() { 
     return (
       <React.Fragment>
-        <StatsCard />
+        <Calculator />
       </React.Fragment>
     );
   }
